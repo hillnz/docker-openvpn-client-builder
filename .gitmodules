@@ -1,0 +1,3 @@
+[submodule "openvpn-client"]
+	path = openvpn-client
+	url = git@github.com:dperson/openvpn-client.git
