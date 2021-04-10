@@ -66,6 +66,7 @@ jobs:
         uses: peter-evans/dockerhub-description@v2
         if: ${{ github.ref == 'refs/heads/main' }}
         with:
+          readme-filepath: ./readme.md
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_PASSWORD }}
           repository: ${{ env.DOCKER_REPO }}
