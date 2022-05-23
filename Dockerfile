@@ -1,3 +1,3 @@
-FROM alpine:3.15.4 as alpine
+FROM alpine:3.16.0 as alpine
 
 # The existing Dockerfile will be appended here
